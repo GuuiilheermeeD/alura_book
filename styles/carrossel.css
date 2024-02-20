@@ -72,3 +72,10 @@ padding: 1em 0 0.5em 0;
     font-weight: 700;
     text-decoration: none;
 }
+
+/* solução para as estrelas  */
+.classificacao{
+    background-image: url(../img/Star.svg);
+    background-repeat: repeat-x;
+    width: 75px; /* Ao inves de colocar cinco inmagens das estrelas no HTML só limitei o tamano da div */
+}
