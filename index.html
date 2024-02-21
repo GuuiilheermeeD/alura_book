@@ -11,6 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link href="https: //fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
 
 </head>
 
@@ -42,11 +45,23 @@
             </ul>
 
             <img src="img/Logo.svg" alt="Logo da AluraBooks">
+            <h1 class="container_titulo"><b class="container_titulo--negrito">Alura</b>Books</h1>
         </div>
+
+        <ul class="opcoes">
+            <li class="opcoes_item">Categorias</li>
+            <li class="opcoes_item"><a href="#" class="opcoes_link">FAVORITOS</a></li>
+            <li class="opcoes_item"><a href="#" class="opcoes_link">MINHA ESTANTE</a></li>
+
+        </ul>
+
         <div class="container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Menu Favoritos" class="container_imagem"></a>
-            <a href="#"><img src="img/Compras.svg" alt=" carrinho de compras" class="container_imagem"></a>
-            <a href="#"><img src="img/Usuario.svg" alt="Meu Perfil" class="container_imagem"></a>
+            <a href="#"><img src="img/Favoritos.svg" alt="Menu Favoritos"
+                    class="container_imagem container_imagem_transparente"></a>
+            <a href="#"><img src="img/Compras.svg" alt=" carrinho de compras"
+                    class="container_imagem "></a>
+            <a href="#"><img src="img/Usuario.svg" alt="Meu Perfil"
+                    class="container_imagem "></a>
         </div>
     </header>
 
@@ -68,7 +83,8 @@
                 <div class="swiper-slide"><img src="img/ReactNative.svg" alt="Livro sobre ReactNative "></div>
                 <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre JavaSript "></div>
                 <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt=""></div>
-                <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre logica de programação com Portugol"></div>
+                <div class="swiper-slide"><img src="img/Portugol.svg"
+                        alt="Livro sobre logica de programação com Portugol"></div>
                 <div class="swiper-slide"><img src="img/Tuning.svg" alt="Livro sobre Tuning de SQL"></div>
                 <div class="swiper-slide"><img src="img/Nodejs.svg" alt="Livro sobre NodeJS"></div>
                 ...
@@ -97,8 +113,8 @@
             <div class="card_botoes">
                 <!-- 1ª coluna -->
                 <ul class="botoes">
-                    <li class="botoes_item" ><img src="img/Favoritos.svg" alt=""> </li>
-                    <li class="botoes_item" ><img src="img/Compras.svg" alt=""> </li>
+                    <li class="botoes_item"><img src="img/Favoritos.svg" alt=""> </li>
+                    <li class="botoes_item"><img src="img/Compras.svg" alt=""> </li>
                 </ul>
                 <!-- 2ª coluna -->
                 <a href="#" class="botoes_ancora">Saiba mais</a>
@@ -134,7 +150,8 @@
                     <div class="classificacao"><img src="img/Star.svg" alt="estrela"></div>
                     <h3 class="descricao_titulo">Autora do Mês</h3>
                     <h2 class="descricao_titulo_livro">Juliana Agarikov</h2>
-                    <p class="descricao_texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                    <p class="descricao_texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.
+                    </p>
                 </div>
 
                 <img src="img/Perfil-escritora 1.svg" class="descricao_imagem" alt="Logo do Angular">
@@ -142,8 +159,8 @@
 
             <div class="card_botoes">
                 <ul class="botoes">
-                    <li class="botoes_item" ><img src="img/Favoritos.svg" alt=""> </li>
-                    <li class="botoes_item" ><img src="img/Compras.svg" alt=""> </li>
+                    <li class="botoes_item"><img src="img/Favoritos.svg" alt=""> </li>
+                    <li class="botoes_item"><img src="img/Compras.svg" alt=""> </li>
                 </ul>
                 <a href="#" class="botoes_ancora">Saiba mais</a>
             </div>
@@ -169,23 +186,23 @@
             <input type="email" placeholder="Cadastre seu e-mail" class="contato_email">
         </section>
 
-        <hr/>
+        <hr />
 
         <footer class="rodape">
             <h2 class="rodape_titulo">Grupo Alura</h2>
         </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 3,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-            },
-        });
-    </script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
 </body>
 
 </html>

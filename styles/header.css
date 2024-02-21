@@ -53,7 +53,43 @@ background-color: var(--branco);
     background-clip: text;
 }
 
-.container_botao{
+.container_botao, .container_titulo, .opcoes{
     display: none;
 
+}
+
+/* Responsividade para o Tablet */
+@media screen and (min-width: 1024px){
+
+    .container{
+        gap: 1em;
+    }
+    .container_titulo, .container_titulo--negrito{
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+    }
+    .container_titulo{
+        display: block;
+        font-weight: 400;
+    }
+    .container_titulo--negrito{
+        font-weight: 700;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+    .opcoes_item{
+        padding: 0 1em;
+    }
+
+    .opcoes_link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container_imagem_transparente, .cabecalho_menu_hamburguer{
+        display: none;
+    }
+    
 }
