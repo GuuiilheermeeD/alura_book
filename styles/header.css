@@ -91,5 +91,14 @@ background-color: var(--branco);
     .container_imagem_transparente, .cabecalho_menu_hamburguer{
         display: none;
     }
+
+    .opcoes_botao:checked ~ .lista_menu{
+        display:block;
+        width: auto;
+    }
+
+    .opcoes_botao{
+        display: none;
+    }
     
 }
