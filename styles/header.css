@@ -59,7 +59,7 @@ background-color: var(--branco);
 }
 
 /* Responsividade para o Tablet */
-@media screen and (min-width: 750px){
+@media screen and (min-width: 1024px){
 
     .container{
         gap: 1em;

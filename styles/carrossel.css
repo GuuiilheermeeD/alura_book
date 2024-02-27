@@ -82,7 +82,7 @@
     /* Ao inves de colocar cinco inmagens das estrelas no HTML só limitei o tamano da div */
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1024px) {
     .carrossel_titulo {
         font-size: 26px;
     }
