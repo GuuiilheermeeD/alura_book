@@ -29,7 +29,7 @@
     font-weight: 700;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 750px){
 .topicos_titulo{
     font-size: 24px;
 }

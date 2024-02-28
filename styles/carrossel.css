@@ -9,7 +9,7 @@
 }
 
 .swiper-slide img {
-    width: 100%;
+    width: 95%;
 }
 
 .swiper-button-prev,
@@ -19,7 +19,11 @@
 
 .swiper-pagination {
     position: initial;
-    margin: 0.5em 0;
+    margin: 0.5em;
+}
+
+.swiper-wrapper {
+    margin: 0 0.8em;
 }
 
 .card_descricao {
@@ -82,7 +86,7 @@
     /* Ao inves de colocar cinco inmagens das estrelas no HTML só limitei o tamano da div */
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 750px) {
     .carrossel_titulo {
         font-size: 26px;
     }
@@ -92,19 +96,19 @@
     }
 
     .swiper {
-        width: 60%;
+        width: 80%;
     }
 
-/* Movimentação do botão do carrosel */
-    .swiper-button-prev,
+    /* Movimentação do botão do carrosel não é funcional */
+    /* .swiper-button-prev,
     .swiper-button-next {
         display: block;
-    top: 60%;
-    }
+        top: 60%;
+    } */
 
-    .card{
+    .card {
         width: 40%;
         margin: 2em auto;
     }
-    
+
 }

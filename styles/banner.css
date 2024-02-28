@@ -34,7 +34,7 @@
     background-position: 0.1em;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 750px) {
     .banner_titulo {
         font-size: 36px;
     }
@@ -44,6 +44,6 @@
     }
 
     .banner_pesquisa::placeholder{
-        background-position: 6.5em ;
+        background-position: 1em ;
     }
 }
